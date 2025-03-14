@@ -1,0 +1,11 @@
+.kotak{
+    background-image: url(/src/assets/loginfull.png);
+    background-repeat: no-repeat;
+    background-size: 67%;
+    background-color: rgb(254, 238, 205);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.atas{
+    display: flex;
+    width: 100%;
+    background-color: rgb(170, 109, 90);
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.judul{
+    font-size: 50px;
+    color: rgb(231, 212, 192);
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.checkoutText{
+    margin-right: 3vh;
+    color: white;
+    background-color: rgb(187, 144, 128);
+    border-radius: 5px;
+    width: 20vh;
+    height: 10vh;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

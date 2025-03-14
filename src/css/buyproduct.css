@@ -1,0 +1,57 @@
+.buyProductBox{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    border-radius: 3em;
+    margin-left: 30vh;
+    height: 77vh;
+}
+.gbr{
+    width: 350px;
+}
+.buyProductTitle{
+    font-size: 40pt;
+    color: rgb(170, 109, 90);
+    font-weight: 900;
+}
+.buyProductDesc{
+    margin-top: 11vh;
+    margin-right: 50px;
+}
+.desc{
+    margin-top: 4vh;
+    font-size: 15pt;
+    color: rgb(170, 109, 90);
+    font-weight: 600;
+}
+.desk2{
+    font-weight: normal;
+    text-align: justify;
+}
+.plusMin{
+    margin-top: 2vh;
+    border: solid 5px rgb(85, 42, 42);
+    width: fit-content;
+}
+.plusMin button{
+    background-color: rgb(170, 109, 90);
+    border-style: none;
+    width: 10vh;
+    color: rgb(85, 42, 42);
+    height: 7vh;
+    font-size: 20pt
+}
+.plusMin button:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+}
+.plusMin span{  
+    height: fit-content; 
+    padding-left: 5vh;
+    padding-right: 5vh;
+    color: rgb(85, 42, 42);
+}
+.gambar{
+    width: 50px;
+    height: 40px;
+}

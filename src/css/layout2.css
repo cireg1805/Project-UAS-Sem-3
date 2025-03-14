@@ -1,0 +1,9 @@
+.kotak1{
+    background-image: url(/src/assets/resepsionis.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 100% 14%;
+    background-color: rgb(254, 238, 205);
+    width: 100%;
+    height: 100%;
+}

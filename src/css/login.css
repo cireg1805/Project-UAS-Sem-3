@@ -1,0 +1,121 @@
+.login-container {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.signText{
+    margin-top: 2vh;
+}
+.p2{
+    font-size: 35pt;
+    text-align: center;
+    color:rgb(170, 109, 90);
+    font-weight: 600;
+}
+.p1{
+    font-size: 35pt;
+    text-align: center;
+    color:rgb(170, 109, 90);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 4vh;
+}
+.inside{
+    display: flex;
+    width: 55vw;
+    padding-top: 100px;
+    margin-left: 15vh;
+    justify-content: flex-end;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+}
+.loginBox {
+    border: solid 1px;
+    color: rgb(170, 109, 90);
+    width: 60vh;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-left: 10vh;
+    height: fit-content;    
+}
+.kiri{
+    margin-top: 2vh;
+}
+.remember{
+    accent-color: rgb(170, 109, 90);
+}
+.btn{
+    margin-top: 8vh;
+    height: 45px;
+    width: 60vh;
+    max-width: 200px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(170, 109, 90);
+    color: rgb(254, 238, 205);
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.linkLogin {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  
+    &:hover {
+      color: white;
+    }
+  
+    &:active {
+      color: white;
+    }
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .inside {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .loginBox {
+        width: 90%;
+        margin-top: 3vh;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .kiri {
+        margin-right: 0px;
+    }
+}
